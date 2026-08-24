@@ -1,0 +1,33 @@
+# Deps and modules
+node_modules/
+**/node_modules/
+
+# Build Files / Compiles
+# Backend
+dist/
+**/dist/
+
+# Frontend
+.angular/
+**/wwwroot/
+
+# Secrets and envs
+.env
+.env.*
+!.env.example
+
+#Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+#Others
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
